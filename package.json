@@ -1,7 +1,6 @@
 {
   "name": "fampay",
   "version": "0.1.0",
-  "homepage":"http://manasgond.github.io/fampay",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -44,8 +43,6 @@
     "winwheel": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "commit": "git-cz",
     "eject": "NODE_PATH=src/ react-scripts eject",
@@ -105,8 +102,5 @@
       "stylelint-config-recommended",
       "stylelint-config-styled-components"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
